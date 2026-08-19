@@ -812,9 +812,10 @@ hr {
 }
 
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 2.5rem;
+    width: 100%;
 }
 
 .service-card {
